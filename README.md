@@ -8,7 +8,7 @@
 
 ## Install
 
-    (cd /tmp && git clone --depth 1 https://github.com/AlvaroOrduna/awesome-bash-on-windows && cd awesome-bash-on-windows && ./install.bash) && source ~/.bashrc && rm -rf /tmp/awesome-bash-on-windows
+    (cd /tmp && git clone --depth 1 https://github.com/AlvaroOrduna/awesome-bash-on-windows && cd awesome-bash-on-windows && chmod +x ./install.bash && ./install.bash) && source ~/.bashrc && rm -rf /tmp/awesome-bash-on-windows
 
 ## Thanks to:
 
