@@ -2,12 +2,12 @@
 
 # Create helper to determine if AwesomeBashOnWindows is installed
 is_installed () {
-  grep ". ~/awesome_bash_on_windows/main.bash" ~/.bashrc &> /dev/null
+  grep ". ~/.awesome_bash_on_windows/main.bash" ~/.bashrc &> /dev/null
 }
 
 # Copy source files
-rm -rf ~/awesome_bash_on_windows
-cp -rf src ~/awesome_bash_on_windows
+rm -rf ~/.awesome_bash_on_windows
+cp -rf src ~/.awesome_bash_on_windows
 
 # If AwesomeBashOnWindows already installed, leave
 is_installed && echo "# AwesomeBashOnWindows already installed" && exit 0
@@ -16,7 +16,7 @@ is_installed && echo "# AwesomeBashOnWindows already installed" && exit 0
 echo "# Installing AwesomeBashOnWindows"
 echo "
 # Source AwesomeBashOnWindows main script
-. ~/awesome_bash_on_windows/main.bash
+. ~/.awesome_bash_on_windows/main.bash
 " >> ~/.bashrc
 
 # If AwesomeBashOnWindows is being loaded, leave
