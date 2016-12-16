@@ -1,4 +1,4 @@
-# AwesomeBashOnWindows
+# Bash On Ubuntu On Windows personal config
 
 **Author:** Álvaro Orduna León
 
